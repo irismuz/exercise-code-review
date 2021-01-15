@@ -23,6 +23,7 @@ for num_measurements in [25, 100, 500]:
        column="Air temperature (degC)",
    )
 
+   # This calculates the arithmetic mean of the temperatures
    mean = np.mean(temperatures)
 
    plot_data(
@@ -32,4 +33,3 @@ for num_measurements in [25, 100, 500]:
        ylabel="air temperature (deg C)",
        file_name=str(num_measurements)+'.png',
    )
-
