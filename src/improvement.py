@@ -24,7 +24,7 @@ for num_measurements in [25, 100, 500]:
    )
 
    # This calculates the arithmetic mean of the temperatures
-   mean = np.mean(temperatures)
+   mean = np.nanmean(temperatures)
 
    plot_data(
        data=temperatures,
